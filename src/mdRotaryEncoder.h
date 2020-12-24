@@ -42,7 +42,7 @@ enum rotation_t {
 
 // Callback type definition for handler such as buttonClicked(int clicks)
 typedef void (*callback)();
-typedef void (*callback_int)(int);
+typedef void (*callback_int)(int32_t);
 
 class mdRotary
 {
