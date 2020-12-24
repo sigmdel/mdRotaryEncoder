@@ -56,4 +56,5 @@ void loop() {
     // Safer to print changes here than in the ISR
     Serial.println(oldPosition);
   }
+  delay(50);
 }
