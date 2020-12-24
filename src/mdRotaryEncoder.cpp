@@ -150,6 +150,7 @@ rotation_t mdRotary::process(void) {
   // call handlers, but only if a step has been completed
   // in other words only if res != DIR_NONE.
   switch (res) {
+    case DIR_NONE: /* do nothing and stop warning */ break;
     case DIR_CW:  if (_incPos()) {
         if (this->_OnCbRight) this->_OnCbRight();
         if (this->_OnCbRotated) this->_OnCbRotated(_position);
