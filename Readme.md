@@ -100,6 +100,11 @@ Otherwise there is no change to the state machine.
 
 # References
 
+There are many other similar libraries. 
+
+[Rotary](https://github.com/CarlosSiles67/Rotary) by Carlos Siles using a modified two-bit encoding scheme is recent and has links to a more extensive description of the algorithm used by Ben Buxton.
+
+[Rotary_Button](https://bitbucket.org/Dershum/rotary_button/src/master/) by Phil Fisk handles the push button included in KY-040 type rotary encoders. Of course, that push button can be managed with a separate library such as [mdPushButton](https://github.com/sigmdel/mdPushButton).
 
 
 # Licence
