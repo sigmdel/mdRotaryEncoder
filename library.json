@@ -1,0 +1,12 @@
+{
+    "name": "mdRotaryEncoder",
+    "description": "Rotary encoder library for Arduino",
+    "keywords": "rotary encoder",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/sigmdel/mdRotaryEncoder"
+    },
+    "frameworks": "arduino",
+    "platforms": "*",
+    "version": "0.1.0"
+}

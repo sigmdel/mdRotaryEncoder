@@ -1,0 +1,13 @@
+mdRotaryEncoder	KEYWORD1
+process	KEYWORD2
+getPosition	KEYWORD2
+getMin	KEYWORD2
+getMax	KEYWORD2
+getRollover	KEYWORD2
+setLimits	KEYWORD2
+onButtonRotatedLeft	KEYWORD2
+onButtonRotatedRight	KEYWORD2
+onButtonRotated	KEYWORD2
+DIR_NONE	LITERAL1
+DIR_CW	LITERAL1
+DIR_CCW	LITERAL1
